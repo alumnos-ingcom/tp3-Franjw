@@ -8,6 +8,6 @@ grep 20[2000-2021] grepdata.txt
 echo "Imprime todas las líneas que contienen una vocal (a, e, i, o o u) seguidas de un solo carácter seguido de la misma vocal nuevamente"
 grep
 echo "Imprima todas las líneas que no comiencen con una S mayúscula"
-grep $ grep -v ^[S] grepdata.txt
+grep -v ^[S] grepdata.txt
 echo "Imprima todas las lineas que contengan una dirección de correo electrónico"
  grep @ grepdata.txt
